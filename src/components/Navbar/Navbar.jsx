@@ -2,7 +2,7 @@ import './Navbar.css'
 
 export const Navbar = () => {
   return (
-    <nav className='navbar navbar-expand-sm navbar-light bg-light z-1'>
+    <nav className='navbar border-bottom navbar-expand-sm navbar-light bg-light z-1'>
       <div className='container'>
         <a
           className='navbar-brand'
@@ -44,7 +44,7 @@ export const Navbar = () => {
               placeholder='Search'
             />
             <button
-              className='btn btn-primary my-2 my-sm-0'
+              className='btn btn-info my-2 my-sm-0'
               type='submit'
             >
               Search
