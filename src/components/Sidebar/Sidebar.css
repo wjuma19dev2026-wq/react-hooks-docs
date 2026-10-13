@@ -1,0 +1,13 @@
+aside {
+  background: #455b8a;
+  background: linear-gradient(136deg #455b8a 0%, #253c6d 50%, #30497d 100%);
+}
+
+.nav .nav-link.active {
+  /* background: #30497d; */
+  background: var(--bs-primary);
+  border-radius: 10px;
+  justify-content: center;
+  display: flex;
+  color: var(--bs-light);
+}
